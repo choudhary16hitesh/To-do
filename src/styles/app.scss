@@ -1,0 +1,77 @@
+@import "_base.scss";
+
+.App {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid #eee;
+}
+
+.todo-input {
+  border: 1px solid #b3a2a2;
+  padding: 10px;
+  width: 250px;
+}
+
+.btn-add {
+  padding: 10px;
+  width: 50px;
+  background-color: #ffffff;
+  border: 1px solid #b3a2a2;
+  cursor: pointer;
+}
+
+.btn-close {
+  padding: 10px;
+  width: 50px;
+  background-color: #ee534f;
+  color: #ffffff;
+  border: 1px solid #b3a2a2;
+  cursor: pointer;
+}
+
+a {
+  cursor: pointer;
+}
+
+.completed {
+  span {
+    text-decoration: line-through;
+  }
+  opacity: 0.5;
+  background-color: #eee;
+}
+
+.add-todo {
+  box-shadow: 1px 1px 1px 1px #e9e9e9;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #eee;
+}
+
+.todo {
+  align-items: center;
+  margin: 15px;
+  display: flex;
+  flex-direction: row;
+}
+
+.todo-card {
+  span {
+    padding: 10px;
+  }
+  display: flex;
+  padding: 0;
+  width: 315px;
+  align-items: center;
+  border: 1px solid #b3a2a2;
+  justify-content: space-between;
+}
+
+.App-header {
+  background-color: #ee534f;
+  padding: 20px;
+  color: white;
+  width: 380px;
+}
